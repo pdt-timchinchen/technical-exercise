@@ -52,7 +52,7 @@ $('#inputPassword').keypress(function(e) {
 //Exercise Pt2 - FIX ME!
 $('#signin-button').on('click', function() {
 	
-   alert('here');
+   alert('Login Failed');
 	
     if (email != $('#inputEmail').val()) count = 0;
     count++;
